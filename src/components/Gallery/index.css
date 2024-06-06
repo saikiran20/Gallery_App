@@ -1,0 +1,28 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  font-family: 'Roboto';
+}
+.img {
+  width: 80%;
+}
+.head {
+  font-size: 24px;
+  color: #1e293b;
+}
+.thumbnail-txt {
+  color: #64748b;
+  font-size: 18px;
+}
+.thumbnail-bg {
+  align-self: flex-start;
+}
+.thumbnail-img-bg {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
